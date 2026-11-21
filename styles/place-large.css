@@ -1,0 +1,32 @@
+@media (min-width: 760px) {
+    main {
+        display: grid;
+        grid-template-columns: 100%;
+        grid-template-rows: 100vh;
+        position: relative;
+    }
+
+    main>* {
+        grid-column: 1 / -1;
+        grid-row: 1;
+    }
+
+    picture img {
+        height: 100%;
+        object-fit: cover;
+    }
+
+    .data {
+        align-self: start;
+        justify-self: start;
+        margin: 2rem;
+        max-width: 350px;
+    }
+
+    .weather {
+        align-self: end;
+        justify-self: end;
+        margin: 2rem;
+        max-width: 350px;
+    }
+}
