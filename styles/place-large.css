@@ -29,4 +29,13 @@
         margin: 2rem;
         max-width: 350px;
     }
+
+    .weather img {
+        display: none;
+    }
+
+    .weather h2::after {
+        content: " ⛅";
+        font-size: 1.5rem;
+    }
 }
